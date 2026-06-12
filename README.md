@@ -1,406 +1,249 @@
 # 🚀 Operating System Mastery
 
-<div align="center">
-
-![OS](https://img.shields.io/badge/Operating-System-blue)
-![Linux](https://img.shields.io/badge/Linux-Kernel-green)
-![RTOS](https://img.shields.io/badge/RTOS-Embedded-orange)
-![AUTOSAR](https://img.shields.io/badge/AUTOSAR-OS-red)
-![C](https://img.shields.io/badge/C-Programming-blue)
-![Interview](https://img.shields.io/badge/Interview-Preparation-success)
-
-### 📚 Learn Operating Systems From Zero To Expert
-
-*A complete roadmap covering Operating Systems, Linux Internals, RTOS, Embedded Systems, AUTOSAR OS, Device Drivers, ARM Architecture, and Interview Preparation.*
-
-</div>
+> Complete Operating System, Linux, RTOS, Embedded Systems, AUTOSAR OS, Computer Architecture, and Interview Preparation Repository.
 
 ---
 
-# 🎯 Why This Repository?
+# 📚 Learning Roadmap
 
-Most Operating System notes are:
+## 01. Introduction
 
-❌ Too theoretical
-❌ Missing real-world examples
-❌ Not interview focused
-❌ No Linux implementation
-❌ No Embedded Systems perspective
-
-This repository solves that by providing:
-
-✅ Beginner → Advanced explanations
-✅ Real-world industry examples
-✅ Linux implementation details
-✅ Embedded Systems concepts
-✅ RTOS concepts
-✅ AUTOSAR OS concepts
-✅ Visual diagrams
-✅ Interview questions & answers
-✅ C programming examples
-✅ Quick revision notes
+* [What is an Operating System?](01-Introduction/What-Is-Operating-System.md)
+* [Evolution of Operating Systems](01-Introduction/Evolution-Of-OS.md)
+* [Types of Operating Systems](01-Introduction/Types-Of-OS.md)
+* [Kernel Architecture](01-Introduction/Kernel-Architecture.md)
+* [User Mode vs Kernel Mode](01-Introduction/User-Vs-Kernel-Mode.md)
+* [System Calls](01-Introduction/System-Calls.md)
 
 ---
 
-# 🛣️ Learning Roadmap
+# 🔄 02. Processes and Threads
 
-```text
-OS Basics
-   ↓
-Processes & Threads
-   ↓
-CPU Scheduling
-   ↓
-Synchronization
-   ↓
-Deadlocks
-   ↓
-Memory Management
-   ↓
-Virtual Memory
-   ↓
-File Systems
-   ↓
-Linux Internals
-   ↓
-RTOS
-   ↓
-AUTOSAR OS
-   ↓
-Embedded Systems
-   ↓
-Interview Preparation
-```
+* [Process](02-Processes-And-Threads/Process.md)
+* [Thread](02-Processes-And-Threads/Thread.md)
+* [Process vs Thread](02-Processes-And-Threads/Process-Vs-Thread.md)
+* [Process Control Block (PCB)](02-Processes-And-Threads/PCB.md)
+* [Thread Control Block (TCB)](02-Processes-And-Threads/TCB.md)
+* [Context Switching](02-Processes-And-Threads/Context-Switching.md)
+* [Process State Diagram](02-Processes-And-Threads/Process-State-Diagram.md)
 
 ---
 
-# 📂 Repository Structure
+# ⚙️ 03. CPU Scheduling
 
-```text
-Operating-System-Mastery/
-
-├── 01-Introduction
-├── 02-Processes-And-Threads
-├── 03-CPU-Scheduling
-├── 04-Process-Synchronization
-├── 05-Deadlocks
-├── 06-Memory-Management
-├── 07-Virtual-Memory
-├── 08-File-System
-├── 09-IO-Systems
-├── 10-Linux-Internals
-├── 11-RTOS
-├── 12-AUTOSAR-OS
-├── 13-Embedded-OS
-├── 14-Linux-Commands
-├── 15-System-Design
-├── 16-Interview-Master
-├── 17-Visual-Diagrams
-├── 18-C-Programs
-└── 19-CheatSheets
-```
+* [Scheduling Basics](03-CPU-Scheduling/Scheduling-Basics.md)
+* [FCFS](03-CPU-Scheduling/FCFS.md)
+* [SJF](03-CPU-Scheduling/SJF.md)
+* [SRTF](03-CPU-Scheduling/SRTF.md)
+* [Priority Scheduling](03-CPU-Scheduling/Priority-Scheduling.md)
+* [Round Robin](03-CPU-Scheduling/Round-Robin.md)
+* [Multilevel Queue](03-CPU-Scheduling/Multilevel-Queue.md)
+* [Multilevel Feedback Queue](03-CPU-Scheduling/Multilevel-Feedback-Queue.md)
 
 ---
 
-# 📖 Topics Covered
+# 🔐 04. Process Synchronization
 
-## 1️⃣ Operating System Fundamentals
-
-* What is an Operating System?
-* Evolution of OS
-* Types of Operating Systems
-* Kernel Architecture
-* User Mode vs Kernel Mode
-* System Calls
-
----
-
-## 2️⃣ Processes & Threads
-
-* Process
-* Thread
-* PCB
-* TCB
-* Context Switching
-* Process Life Cycle
-* Multithreading
+* [Critical Section Problem](04-Process-Synchronization/Critical-Section.md)
+* [Mutex](04-Process-Synchronization/Mutex.md)
+* [Semaphore](04-Process-Synchronization/Semaphore.md)
+* [Spinlock](04-Process-Synchronization/Spinlock.md)
+* [Monitor](04-Process-Synchronization/Monitor.md)
+* [Condition Variable](04-Process-Synchronization/Condition-Variable.md)
+* [Producer Consumer](04-Process-Synchronization/Producer-Consumer.md)
+* [Reader Writer](04-Process-Synchronization/Reader-Writer.md)
+* [Dining Philosophers](04-Process-Synchronization/Dining-Philosophers.md)
 
 ---
 
-## 3️⃣ CPU Scheduling
+# 💀 05. Deadlocks
 
-* FCFS
-* SJF
-* SRTF
-* Priority Scheduling
-* Round Robin
-* Multilevel Queue
-* Multilevel Feedback Queue
-
----
-
-## 4️⃣ Process Synchronization
-
-* Critical Section
-* Mutex
-* Semaphore
-* Spinlock
-* Monitor
-* Condition Variable
+* [Deadlock Basics](05-Deadlocks/Deadlock.md)
+* [Coffman Conditions](05-Deadlocks/Coffman-Conditions.md)
+* [Deadlock Prevention](05-Deadlocks/Prevention.md)
+* [Deadlock Avoidance](05-Deadlocks/Avoidance.md)
+* [Banker's Algorithm](05-Deadlocks/Bankers-Algorithm.md)
+* [Deadlock Detection](05-Deadlocks/Detection.md)
+* [Deadlock Recovery](05-Deadlocks/Recovery.md)
 
 ---
 
-## 5️⃣ Deadlocks
+# 🧠 06. Memory Management
 
-* Deadlock Conditions
-* Prevention
-* Avoidance
-* Detection
-* Recovery
-
----
-
-## 6️⃣ Memory Management
-
-* Paging
-* Segmentation
-* MMU
-* TLB
-* Swapping
-* Fragmentation
+* [Memory Layout of Process](06-Memory-Management/Process-Memory-Layout.md)
+* [Paging](06-Memory-Management/Paging.md)
+* [Segmentation](06-Memory-Management/Segmentation.md)
+* [MMU](06-Memory-Management/MMU.md)
+* [TLB](06-Memory-Management/TLB.md)
+* [Address Translation](06-Memory-Management/Address-Translation.md)
+* [Swapping](06-Memory-Management/Swapping.md)
+* [Fragmentation](06-Memory-Management/Fragmentation.md)
 
 ---
 
-## 7️⃣ Virtual Memory
+# 💾 07. Virtual Memory
 
-* Demand Paging
-* Page Fault
-* FIFO
-* LRU
-* Optimal Replacement
-
----
-
-## 8️⃣ File Systems
-
-* FAT32
-* NTFS
-* EXT4
-* Inodes
-* Journaling
+* [Virtual Memory](07-Virtual-Memory/Virtual-Memory.md)
+* [Demand Paging](07-Virtual-Memory/Demand-Paging.md)
+* [Page Fault](07-Virtual-Memory/Page-Fault.md)
+* [FIFO](07-Virtual-Memory/FIFO.md)
+* [LRU](07-Virtual-Memory/LRU.md)
+* [Optimal Algorithm](07-Virtual-Memory/Optimal.md)
+* [Clock Algorithm](07-Virtual-Memory/Clock.md)
 
 ---
 
-## 9️⃣ Linux Internals
+# 📁 08. File Systems
 
-* fork()
-* exec()
-* wait()
-* Signals
-* Pipes
-* Shared Memory
-* Sockets
-
----
-
-## 🔟 RTOS
-
-* RTOS Fundamentals
-* Task Scheduling
-* Queues
-* Semaphores
-* Priority Inversion
-* FreeRTOS
+* [File System Basics](08-File-System/File-System-Basics.md)
+* [Inodes](08-File-System/Inodes.md)
+* [Journaling](08-File-System/Journaling.md)
+* [EXT4](08-File-System/EXT4.md)
+* [NTFS](08-File-System/NTFS.md)
+* [FAT32](08-File-System/FAT32.md)
+* [Mounting](08-File-System/Mounting.md)
 
 ---
 
-## 1️⃣1️⃣ AUTOSAR OS
+# 🔌 09. I/O Systems
 
-* OSEK
-* Tasks
-* Events
-* Resources
-* Alarms
-* ISR
-* Schedule Tables
-
----
-
-## 1️⃣2️⃣ Embedded Systems
-
-* Interrupt Handling
-* Memory Mapped I/O
-* Bootloader
-* ARM Cortex Architecture
-* Exception Handling
+* [Interrupts](09-IO-Systems/Interrupts.md)
+* [Interrupt Handling](09-IO-Systems/Interrupt-Handling.md)
+* [Polling](09-IO-Systems/Polling.md)
+* [DMA](09-IO-Systems/DMA.md)
+* [Device Drivers](09-IO-Systems/Device-Drivers.md)
+* [Character Drivers](09-IO-Systems/Character-Drivers.md)
+* [Block Drivers](09-IO-Systems/Block-Drivers.md)
 
 ---
 
-# 💻 C Programming Examples
+# 🐧 10. Linux Internals
 
-This repository includes practical programs:
-
-```c
-fork()
-pthread_create()
-mutex
-semaphore
-shared_memory
-pipe
-signal
-producer_consumer
-reader_writer
-```
+* [Linux Kernel Overview](10-Linux-Internals/Linux-Kernel.md)
+* [fork()](10-Linux-Internals/fork.md)
+* [exec()](10-Linux-Internals/exec.md)
+* [wait()](10-Linux-Internals/wait.md)
+* [Signals](10-Linux-Internals/Signals.md)
+* [Pipes](10-Linux-Internals/Pipes.md)
+* [Shared Memory](10-Linux-Internals/Shared-Memory.md)
+* [Sockets](10-Linux-Internals/Sockets.md)
 
 ---
 
-# 📊 Visual Learning
+# 🧵 11. RTOS
 
-Every topic includes:
-
-✅ Architecture Diagrams
-
-✅ Flowcharts
-
-✅ Process State Diagrams
-
-✅ Memory Layout Diagrams
-
-✅ Scheduling Diagrams
-
-✅ Linux Internal Flow Diagrams
+* [RTOS Basics](11-RTOS/RTOS-Basics.md)
+* [Tasks](11-RTOS/Tasks.md)
+* [Scheduler](11-RTOS/Scheduler.md)
+* [Queues](11-RTOS/Queues.md)
+* [Semaphore](11-RTOS/Semaphore.md)
+* [Mutex](11-RTOS/Mutex.md)
+* [Priority Inversion](11-RTOS/Priority-Inversion.md)
+* [FreeRTOS](11-RTOS/FreeRTOS.md)
 
 ---
 
-# 🎤 Interview Preparation
+# 🚗 12. AUTOSAR OS
 
-## Operating System Interviews
-
-* Top 500 OS Questions
-* Top 100 Linux Questions
-* Top 100 Embedded Questions
-* RTOS Questions
-* AUTOSAR OS Questions
-
----
-
-## Company Focus
-
-### Qualcomm
-
-* Linux Internals
-* RTOS
-* Drivers
-* ARM Architecture
-* Memory Management
-
-### NVIDIA
-
-* OS Fundamentals
-* Linux
-* Multithreading
-
-### Intel
-
-* Scheduling
-* Synchronization
-* Virtual Memory
-
-### AMD
-
-* Kernel Concepts
-* Memory Hierarchy
+* [OSEK Overview](12-AUTOSAR-OS/OSEK.md)
+* [Tasks](12-AUTOSAR-OS/Tasks.md)
+* [Events](12-AUTOSAR-OS/Events.md)
+* [Alarms](12-AUTOSAR-OS/Alarms.md)
+* [Resources](12-AUTOSAR-OS/Resources.md)
+* [ISR](12-AUTOSAR-OS/ISR.md)
+* [Schedule Tables](12-AUTOSAR-OS/Schedule-Tables.md)
 
 ---
 
-# 📝 Note Format
+# 🔥 13. Embedded OS
 
-Every topic follows:
-
-```markdown
-# Topic Name
-
-## What is it?
-
-## Why do we need it?
-
-## Internal Working
-
-## Step-by-Step Flow
-
-## Real-World Example
-
-## Linux Example
-
-## C Program
-
-## Interview Questions
-
-## Common Mistakes
-
-## Quick Revision
-```
+* [Memory Mapped I/O](13-Embedded-OS/Memory-Mapped-IO.md)
+* [Bootloader](13-Embedded-OS/Bootloader.md)
+* [Interrupt Handling](13-Embedded-OS/Interrupt-Handling.md)
+* [ARM Exceptions](13-Embedded-OS/ARM-Exceptions.md)
+* [ARM Cortex Architecture](13-Embedded-OS/ARM-Cortex.md)
 
 ---
 
-# 🚀 Revision Strategy
+# 🏗️ 14. Compilation Process (MUST HAVE)
 
-### Beginner
-
-Read once.
-
-### Intermediate
-
-Draw diagrams manually.
-
-### Advanced
-
-Explain topics without notes.
-
-### Interview Ready
-
-Solve questions and write code.
+* [C Compilation Overview](14-Compilation-Process/C-Compilation.md)
+* [Preprocessor](14-Compilation-Process/Preprocessor.md)
+* [Compiler](14-Compilation-Process/Compiler.md)
+* [Assembler](14-Compilation-Process/Assembler.md)
+* [Linker](14-Compilation-Process/Linker.md)
+* [Loader](14-Compilation-Process/Loader.md)
+* [Static Linking](14-Compilation-Process/Static-Linking.md)
+* [Dynamic Linking](14-Compilation-Process/Dynamic-Linking.md)
+* [ELF File Format](14-Compilation-Process/ELF.md)
+* [Symbol Table](14-Compilation-Process/Symbol-Table.md)
+* [Memory Sections (.text .data .bss)](14-Compilation-Process/Memory-Sections.md)
 
 ---
 
-# 🏆 Goal
+# 💻 15. Linux Commands
 
-By completing this repository, you should be able to:
-
-✅ Explain OS concepts confidently
-
-✅ Crack Software Engineer interviews
-
-✅ Crack Embedded Engineer interviews
-
-✅ Crack Linux System Engineer interviews
-
-✅ Crack Driver Development interviews
-
-✅ Understand RTOS deeply
-
-✅ Understand AUTOSAR OS deeply
-
-✅ Build strong GitHub credibility
+* [Process Commands](15-Linux-Commands/Process-Commands.md)
+* [Memory Commands](15-Linux-Commands/Memory-Commands.md)
+* [Networking Commands](15-Linux-Commands/Networking-Commands.md)
+* [Debugging Commands](15-Linux-Commands/Debugging-Commands.md)
 
 ---
 
-# ⭐ Support
+# 🛠️ 16. Debugging
 
-If this repository helps you:
-
-⭐ Star the repository
-
-🍴 Fork it
-
-📢 Share it with others
+* [GDB](16-Debugging/GDB.md)
+* [Core Dumps](16-Debugging/Core-Dumps.md)
+* [Valgrind](16-Debugging/Valgrind.md)
+* [Lauterbach T32](16-Debugging/T32.md)
+* [Crash Analysis](16-Debugging/Crash-Analysis.md)
 
 ---
 
-<div align="center">
+# 🏛️ 17. Computer Architecture
 
-### 💡 "The best way to learn Operating Systems is to understand how the computer thinks."
+* [CPU Architecture](17-Computer-Architecture/CPU.md)
+* [Caches](17-Computer-Architecture/Caches.md)
+* [L1 L2 L3 Cache](17-Computer-Architecture/L1-L2-L3.md)
+* [Virtual Memory](17-Computer-Architecture/Virtual-Memory.md)
+* [ARMv8 Architecture](17-Computer-Architecture/ARMv8.md)
+* [MMU](17-Computer-Architecture/MMU.md)
 
-Happy Learning 🚀
+---
 
-</div>
+# 🎤 18. Interview Master
+
+* [Top 500 OS Questions](18-Interview-Master/Top-500-OS-Questions.md)
+* [Linux Interview Questions](18-Interview-Master/Linux-Questions.md)
+* [RTOS Interview Questions](18-Interview-Master/RTOS-Questions.md)
+* [AUTOSAR Interview Questions](18-Interview-Master/AUTOSAR-Questions.md)
+* [Qualcomm Interview Questions](18-Interview-Master/Qualcomm-Questions.md)
+
+---
+
+# ⚡ Quick Revision
+
+* [OS Cheat Sheet](19-CheatSheets/OS-CheatSheet.md)
+* [Linux Cheat Sheet](19-CheatSheets/Linux-CheatSheet.md)
+* [RTOS Cheat Sheet](19-CheatSheets/RTOS-CheatSheet.md)
+* [AUTOSAR Cheat Sheet](19-CheatSheets/AUTOSAR-CheatSheet.md)
+
+---
+
+# 🎯 Repository Goal
+
+By completing all notes in this repository, you will be prepared for:
+
+✅ Software Engineer Interviews
+
+✅ Linux System Engineer Interviews
+
+✅ Embedded Software Engineer Interviews
+
+✅ Device Driver Development Roles
+
+✅ RTOS Development Roles
+
+✅ Qualcomm / NVIDIA / Intel / AMD Interviews
+
+✅ AUTOSAR Developer Roles
