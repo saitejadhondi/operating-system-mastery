@@ -1,455 +1,289 @@
-<div align="center">
-
 # 🚀 Operating System Mastery
 
-### Complete Beginner → Advanced Operating Systems, Linux Internals, Embedded Systems, RTOS, AUTOSAR OS, Kernel Development & Interview Preparation Roadmap
+<div align="center">
 
-<p align="center">
-<img src="https://img.shields.io/badge/Operating%20Systems-Mastery-blue?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Linux-Internals-green?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/RTOS-FreeRTOS-orange?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/AUTOSAR-OS-red?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/ARM-Architecture-purple?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Interview-Ready-success?style=for-the-badge"/>
-</p>
+### Complete Operating Systems • Linux • RTOS • AUTOSAR • Embedded Systems • Interview Preparation Roadmap
 
----
+![OS](https://img.shields.io/badge/Operating%20Systems-Mastery-blue?style=for-the-badge)
+![Linux](https://img.shields.io/badge/Linux-Internals-green?style=for-the-badge)
+![RTOS](https://img.shields.io/badge/RTOS-FreeRTOS-orange?style=for-the-badge)
+![AUTOSAR](https://img.shields.io/badge/AUTOSAR-OS-red?style=for-the-badge)
+![ARM](https://img.shields.io/badge/ARM-Architecture-purple?style=for-the-badge)
+![Interview](https://img.shields.io/badge/Interview-Ready-success?style=for-the-badge)
 
 ### 🎯 One Repository. One Roadmap. One Goal.
 
-**Master Operating Systems deeply enough to crack Software Engineering, Linux, Embedded Systems, RTOS, Device Driver, AUTOSAR and Qualcomm-level interviews.**
-
----
-
-### 📚 Covers
-
-🖥️ Operating Systems
-
-🐧 Linux Internals
-
-⚙️ RTOS & FreeRTOS
-
-🚗 AUTOSAR OS
-
-🔥 Embedded Systems
-
-🏗️ Compilation Process
-
-🧠 Memory Management
-
-🔌 Device Drivers
-
-🏛️ Computer Architecture
-
-🛠️ Debugging & Tools
-
-🎤 Interview Preparation
+**Master Operating Systems deeply enough to crack Software Engineering, Linux, Embedded Systems, RTOS, AUTOSAR and Qualcomm-level interviews.**
 
 </div>
 
 ---
 
-# 🎯 About This Repository
+# 📚 Repository Roadmap
 
-This repository is a structured roadmap designed to help learners progress from:
+## 01. Basics of Operating Systems
 
-```text
-Complete Beginner
-       ↓
-Operating System Fundamentals
-       ↓
-Processes & Threads
-       ↓
-Memory Management
-       ↓
-Linux Internals
-       ↓
-Embedded Systems
-       ↓
-RTOS & AUTOSAR OS
-       ↓
-Kernel Understanding
-       ↓
-Interview Preparation
-```
-
-The goal is to provide practical, production-focused and interview-oriented notes for:
-
-* Software Engineers
-* Linux Engineers
-* Embedded Engineers
-* RTOS Developers
-* AUTOSAR Developers
-* Device Driver Developers
-* Computer Science Students
-* Interview Preparation
+| Topic                                                                                                                      |
+| -------------------------------------------------------------------------------------------------------------------------- |
+| [Operating System Introduction](01-Basics-Of-Operating-Systems/01-Operating-System-Introduction.md)                        |
+| [Process, Program and Thread](01-Basics-Of-Operating-Systems/02-Process-Program-And-Thread.md)                             |
+| [Types of Operating Systems](01-Basics-Of-Operating-Systems/03-Types-Of-Operating-Systems.md)                              |
+| [Batch OS, Multiprogramming OS, Multitasking OS](01-Basics-Of-Operating-Systems/04-Batch-Multiprogramming-Multitasking.md) |
+| [Multiprocessing OS and Real-Time OS](01-Basics-Of-Operating-Systems/05-Multiprocessing-And-RTOS.md)                       |
+| [Distributed, Clustered and Embedded OS](01-Basics-Of-Operating-Systems/06-Distributed-Clustered-Embedded-OS.md)           |
+| [Quiz](01-Basics-Of-Operating-Systems/Quiz.md)                                                                             |
 
 ---
 
-# 🎯 Who Is This Repository For?
+## 02. Process Management
 
-✅ Beginners Learning Operating Systems
-
-✅ Software Engineers
-
-✅ Linux Developers
-
-✅ Embedded Engineers
-
-✅ RTOS Developers
-
-✅ AUTOSAR Developers
-
-✅ Device Driver Developers
-
-✅ Qualcomm Aspirants
-
-✅ College Students & Freshers
-
----
-
-# 🚀 Quick Start
-
-If you're completely new to Operating Systems, follow this order:
-
-```text
-01 → 02 → 03 → 04
-         ↓
-05 → 06 → 07 → 08
-         ↓
-09 → 10 → 11 → 12
-         ↓
-13 → 14 → 15 → 16
-```
-
-Recommended Timeline:
-
-* Beginner: 8–12 Weeks
-* Intermediate: 4–6 Weeks
-* Interview Revision: 2–3 Weeks
+| Topic                                                                                              |
+| -------------------------------------------------------------------------------------------------- |
+| [Process and Process States](02-Process-Management/01-Process-And-States.md)                       |
+| [Process Control Block (PCB)](02-Process-Management/02-PCB.md)                                     |
+| [Context Switching](02-Process-Management/03-Context-Switching.md)                                 |
+| [User Mode vs Kernel Mode](02-Process-Management/04-User-Mode-vs-Kernel-Mode.md)                   |
+| [Schedulers and Scheduling Queues](02-Process-Management/05-Schedulers-And-Queues.md)              |
+| [Preemptive vs Non-Preemptive Scheduling](02-Process-Management/06-Preemptive-vs-NonPreemptive.md) |
+| [FCFS](02-Process-Management/07-FCFS.md)                                                           |
+| [SJF](02-Process-Management/08-SJF.md)                                                             |
+| [SRTF](02-Process-Management/09-SRTF.md)                                                           |
+| [HRRN](02-Process-Management/10-HRRN.md)                                                           |
+| [Round Robin](02-Process-Management/11-Round-Robin.md)                                             |
+| [Priority Scheduling](02-Process-Management/12-Priority-Scheduling.md)                             |
+| [Multilevel Queue Scheduling](02-Process-Management/13-Multilevel-Queue.md)                        |
+| [Threads](02-Process-Management/14-Threads.md)                                                     |
+| [Multithreading Models](02-Process-Management/15-Multithreading-Models.md)                         |
+| [Quiz](02-Process-Management/Quiz.md)                                                              |
 
 ---
 
-# 🗺️ Complete Learning Roadmap
+## 03. Synchronization and Concurrency
 
-## 🏛️ Foundation
-
-| Chapter | Topic                                                                         |
-| ------- | ----------------------------------------------------------------------------- |
-| 01      | [Computer Fundamentals](01-Foundation/01-Computer-Fundamentals.md)            |
-| 02      | [How Computers Work](01-Foundation/02-How-Computers-Work.md)                  |
-| 03      | [Operating System Overview](01-Foundation/03-Operating-System-Overview.md)    |
-| 04      | [Kernel Basics](01-Foundation/04-Kernel-Basics.md)                            |
-| 05      | [Introduction To System Calls](01-Foundation/05-System-Calls-Introduction.md) |
-
----
-
-## 🖥️ OS Fundamentals
-
-| Chapter | Topic                                                                               |
-| ------- | ----------------------------------------------------------------------------------- |
-| 01      | [What Is An Operating System](02-OS-Fundamentals/01-What-Is-An-Operating-System.md) |
-| 02      | [Types Of Operating Systems](02-OS-Fundamentals/02-Types-Of-Operating-Systems.md)   |
-| 03      | [Kernel Architecture](02-OS-Fundamentals/03-Kernel-Architecture.md)                 |
-| 04      | [User Mode vs Kernel Mode](02-OS-Fundamentals/04-User-Mode-vs-Kernel-Mode.md)       |
-| 05      | [System Calls](02-OS-Fundamentals/05-System-Calls.md)                               |
+| Topic                                                                                       |
+| ------------------------------------------------------------------------------------------- |
+| [Process Synchronization](03-Synchronization-And-Concurrency/01-Process-Synchronization.md) |
+| [Critical Section Problem](03-Synchronization-And-Concurrency/02-Critical-Section.md)       |
+| [Mutex](03-Synchronization-And-Concurrency/03-Mutex.md)                                     |
+| [Semaphores](03-Synchronization-And-Concurrency/04-Semaphores.md)                           |
+| [Producer Consumer Problem](03-Synchronization-And-Concurrency/05-Producer-Consumer.md)     |
+| [Deadlocks](03-Synchronization-And-Concurrency/06-Deadlocks.md)                             |
+| [Deadlock Prevention](03-Synchronization-And-Concurrency/07-Deadlock-Prevention.md)         |
+| [Banker's Algorithm](03-Synchronization-And-Concurrency/08-Bankers-Algorithm.md)            |
+| [Starvation and Aging](03-Synchronization-And-Concurrency/09-Starvation-And-Aging.md)       |
+| [Quiz](03-Synchronization-And-Concurrency/Quiz.md)                                          |
 
 ---
 
-## 🔄 Processes & Threads
+## 04. Memory Management
 
-| Chapter | Topic                                                                 |
-| ------- | --------------------------------------------------------------------- |
-| 01      | [Process](03-Processes-And-Threads/01-Process.md)                     |
-| 02      | [Thread](03-Processes-And-Threads/02-Thread.md)                       |
-| 03      | [Process vs Thread](03-Processes-And-Threads/03-Process-vs-Thread.md) |
-| 04      | [PCB](03-Processes-And-Threads/04-PCB.md)                             |
-| 05      | [TCB](03-Processes-And-Threads/05-TCB.md)                             |
-| 06      | [Context Switching](03-Processes-And-Threads/06-Context-Switching.md) |
-| 07      | [Process States](03-Processes-And-Threads/07-Process-States.md)       |
-| 08      | [Multithreading](03-Processes-And-Threads/08-Multithreading.md)       |
-
----
-
-## ⚙️ CPU Scheduling
-
-| Chapter | Topic                                                                          |
-| ------- | ------------------------------------------------------------------------------ |
-| 01      | [Scheduling Fundamentals](04-CPU-Scheduling/01-Scheduling-Fundamentals.md)     |
-| 02      | [FCFS](04-CPU-Scheduling/02-FCFS.md)                                           |
-| 03      | [SJF](04-CPU-Scheduling/03-SJF.md)                                             |
-| 04      | [SRTF](04-CPU-Scheduling/04-SRTF.md)                                           |
-| 05      | [Round Robin](04-CPU-Scheduling/05-Round-Robin.md)                             |
-| 06      | [Priority Scheduling](04-CPU-Scheduling/06-Priority-Scheduling.md)             |
-| 07      | [Multilevel Queue](04-CPU-Scheduling/07-Multilevel-Queue.md)                   |
-| 08      | [Multilevel Feedback Queue](04-CPU-Scheduling/08-Multilevel-Feedback-Queue.md) |
+| Topic                                                                                   |
+| --------------------------------------------------------------------------------------- |
+| [Memory Allocation Techniques](04-Memory-Management/01-Memory-Allocation-Techniques.md) |
+| [Contiguous Allocation](04-Memory-Management/02-Contiguous-Allocation.md)               |
+| [Paging](04-Memory-Management/03-Paging.md)                                             |
+| [Segmentation](04-Memory-Management/04-Segmentation.md)                                 |
+| [Virtual Memory](04-Memory-Management/05-Virtual-Memory.md)                             |
+| [Page Fault](04-Memory-Management/06-Page-Fault.md)                                     |
+| [FIFO Page Replacement](04-Memory-Management/07-FIFO.md)                                |
+| [LRU Page Replacement](04-Memory-Management/08-LRU.md)                                  |
+| [Optimal Page Replacement](04-Memory-Management/09-Optimal.md)                          |
+| [Belady's Anomaly](04-Memory-Management/10-Beladys-Anomaly.md)                          |
+| [Thrashing](04-Memory-Management/11-Thrashing.md)                                       |
+| [Dynamic Binding](04-Memory-Management/12-Dynamic-Binding.md)                           |
+| [Quiz](04-Memory-Management/Quiz.md)                                                    |
 
 ---
 
-## 🔐 Synchronization & Deadlocks
+## 05. File Systems
 
-| Chapter | Topic                                                                             |
-| ------- | --------------------------------------------------------------------------------- |
-| 01      | [Critical Section](05-Synchronization-And-Deadlocks/01-Critical-Section.md)       |
-| 02      | [Mutex](05-Synchronization-And-Deadlocks/02-Mutex.md)                             |
-| 03      | [Semaphore](05-Synchronization-And-Deadlocks/03-Semaphore.md)                     |
-| 04      | [Spinlock](05-Synchronization-And-Deadlocks/04-Spinlock.md)                       |
-| 05      | [Condition Variables](05-Synchronization-And-Deadlocks/05-Condition-Variables.md) |
-| 06      | [Producer Consumer](05-Synchronization-And-Deadlocks/06-Producer-Consumer.md)     |
-| 07      | [Reader Writer](05-Synchronization-And-Deadlocks/07-Reader-Writer.md)             |
-| 08      | [Deadlocks](05-Synchronization-And-Deadlocks/08-Deadlocks.md)                     |
-| 09      | [Banker's Algorithm](05-Synchronization-And-Deadlocks/09-Bankers-Algorithm.md)    |
-
----
-
-## 🧠 Memory Management
-
-| Chapter | Topic                                                         |
-| ------- | ------------------------------------------------------------- |
-| 01      | [Memory Layout](06-Memory-Management/01-Memory-Layout.md)     |
-| 02      | [Paging](06-Memory-Management/02-Paging.md)                   |
-| 03      | [Segmentation](06-Memory-Management/03-Segmentation.md)       |
-| 04      | [MMU](06-Memory-Management/04-MMU.md)                         |
-| 05      | [TLB](06-Memory-Management/05-TLB.md)                         |
-| 06      | [Virtual Memory](06-Memory-Management/06-Virtual-Memory.md)   |
-| 07      | [Page Fault](06-Memory-Management/07-Page-Fault.md)           |
-| 08      | [Thrashing](06-Memory-Management/08-Thrashing.md)             |
-| 09      | [Copy-On-Write](06-Memory-Management/09-Copy-On-Write.md)     |
-| 10      | [Buddy Allocator](06-Memory-Management/10-Buddy-Allocator.md) |
-| 11      | [Slab Allocator](06-Memory-Management/11-Slab-Allocator.md)   |
+| Topic                                                                |
+| -------------------------------------------------------------------- |
+| [File System Overview](05-File-Systems/01-File-System.md)            |
+| [Types of File Systems](05-File-Systems/02-Types-Of-File-Systems.md) |
+| [File Allocation Methods](05-File-Systems/03-File-Allocation.md)     |
+| [Fragmentation](05-File-Systems/04-Fragmentation.md)                 |
+| [File Control Blocks (FCB)](05-File-Systems/05-FCB.md)               |
+| [Access Control Lists (ACL)](05-File-Systems/06-ACL.md)              |
+| [Authentication Mechanisms](05-File-Systems/07-Authentication.md)    |
+| [File System Encryption](05-File-Systems/08-Encryption.md)           |
+| [Journaling](05-File-Systems/09-Journaling.md)                       |
+| [Backup and Recovery](05-File-Systems/10-Backup-And-Recovery.md)     |
+| [Quiz](05-File-Systems/Quiz.md)                                      |
 
 ---
 
-## 📁 File Systems & I/O
+## 06. Disk Management and Scheduling
 
-| Chapter | Topic                                                         |
-| ------- | ------------------------------------------------------------- |
-| 01      | [File Systems](07-File-Systems-And-IO/01-File-Systems.md)     |
-| 02      | [Inodes](07-File-Systems-And-IO/02-Inodes.md)                 |
-| 03      | [EXT4](07-File-Systems-And-IO/03-EXT4.md)                     |
-| 04      | [NTFS](07-File-Systems-And-IO/04-NTFS.md)                     |
-| 05      | [Interrupts](07-File-Systems-And-IO/05-Interrupts.md)         |
-| 06      | [Polling](07-File-Systems-And-IO/06-Polling.md)               |
-| 07      | [DMA](07-File-Systems-And-IO/07-DMA.md)                       |
-| 08      | [Device Drivers](07-File-Systems-And-IO/08-Device-Drivers.md) |
-
----
-
-## 🐧 Linux & System Programming
-
-| Chapter | Topic                                                                        |
-| ------- | ---------------------------------------------------------------------------- |
-| 01      | [Linux Kernel Overview](08-Linux-And-System-Programming/01-Linux-Kernel.md)  |
-| 02      | [System Calls Deep Dive](08-Linux-And-System-Programming/02-System-Calls.md) |
-| 03      | [fork()](08-Linux-And-System-Programming/03-fork.md)                         |
-| 04      | [exec()](08-Linux-And-System-Programming/04-exec.md)                         |
-| 05      | [wait()](08-Linux-And-System-Programming/05-wait.md)                         |
-| 06      | [Signals](08-Linux-And-System-Programming/06-Signals.md)                     |
-| 07      | [Pipes](08-Linux-And-System-Programming/07-Pipes.md)                         |
-| 08      | [Shared Memory](08-Linux-And-System-Programming/08-Shared-Memory.md)         |
-| 09      | [Message Queues](08-Linux-And-System-Programming/09-Message-Queues.md)       |
-| 10      | [Sockets](08-Linux-And-System-Programming/10-Sockets.md)                     |
-| 11      | [Linux Scheduler](08-Linux-And-System-Programming/11-Linux-Scheduler.md)     |
+| Topic                                                              |
+| ------------------------------------------------------------------ |
+| [Disk Scheduling Basics](06-Disk-Management/01-Disk-Scheduling.md) |
+| [FCFS Disk Scheduling](06-Disk-Management/02-FCFS-Disk.md)         |
+| [SSTF](06-Disk-Management/03-SSTF.md)                              |
+| [SCAN](06-Disk-Management/04-SCAN.md)                              |
+| [C-SCAN](06-Disk-Management/05-C-SCAN.md)                          |
+| [LOOK](06-Disk-Management/06-LOOK.md)                              |
+| [C-LOOK](06-Disk-Management/07-C-LOOK.md)                          |
+| [RAID](06-Disk-Management/08-RAID.md)                              |
+| [Quiz](06-Disk-Management/Quiz.md)                                 |
 
 ---
 
-## 🏗️ Compilation Process
+## 07. Inter Process Communication (IPC)
 
-| Chapter | Topic                                                                     |
-| ------- | ------------------------------------------------------------------------- |
-| 01      | [Compilation Overview](09-Compilation-Process/01-Compilation-Overview.md) |
-| 02      | [Preprocessor](09-Compilation-Process/02-Preprocessor.md)                 |
-| 03      | [Compiler](09-Compilation-Process/03-Compiler.md)                         |
-| 04      | [Assembler](09-Compilation-Process/04-Assembler.md)                       |
-| 05      | [Linker](09-Compilation-Process/05-Linker.md)                             |
-| 06      | [Loader](09-Compilation-Process/06-Loader.md)                             |
-| 07      | [Static Linking](09-Compilation-Process/07-Static-Linking.md)             |
-| 08      | [Dynamic Linking](09-Compilation-Process/08-Dynamic-Linking.md)           |
-| 09      | [ELF Format](09-Compilation-Process/09-ELF.md)                            |
-| 10      | [GOT & PLT](09-Compilation-Process/10-GOT-PLT.md)                         |
+| Topic                                           |
+| ----------------------------------------------- |
+| [IPC Overview](07-IPC/01-IPC-Overview.md)       |
+| [Message Passing](07-IPC/02-Message-Passing.md) |
+| [Shared Memory](07-IPC/03-Shared-Memory.md)     |
+| [Message Queues](07-IPC/04-Message-Queues.md)   |
+| [Pipes](07-IPC/05-Pipes.md)                     |
+| [Sockets](07-IPC/06-Sockets.md)                 |
+| [Signals](07-IPC/07-Signals.md)                 |
+| [Quiz](07-IPC/Quiz.md)                          |
 
 ---
 
-## 🐧 Kernel Internals
+## 08. System and Performance
 
-| Chapter | Topic                                                                |
-| ------- | -------------------------------------------------------------------- |
-| 01      | [Scheduler Internals](10-Kernel-Internals/01-Scheduler-Internals.md) |
-| 02      | [Memory Manager](10-Kernel-Internals/02-Memory-Manager.md)           |
-| 03      | [Virtual File System](10-Kernel-Internals/03-VFS.md)                 |
-| 04      | [Interrupt Subsystem](10-Kernel-Internals/04-Interrupt-Subsystem.md) |
-| 05      | [Kernel Modules](10-Kernel-Internals/05-Kernel-Modules.md)           |
-| 06      | [Driver Framework](10-Kernel-Internals/06-Driver-Framework.md)       |
-
----
-
-## ⚙️ Embedded Systems & RTOS
-
-| Chapter | Topic                                                                  |
-| ------- | ---------------------------------------------------------------------- |
-| 01      | [Embedded Systems Basics](11-Embedded-And-RTOS/01-Embedded-Systems.md) |
-| 02      | [Memory Mapped I/O](11-Embedded-And-RTOS/02-Memory-Mapped-IO.md)       |
-| 03      | [Interrupt Handling](11-Embedded-And-RTOS/03-Interrupt-Handling.md)    |
-| 04      | [RTOS Basics](11-Embedded-And-RTOS/04-RTOS-Basics.md)                  |
-| 05      | [Tasks](11-Embedded-And-RTOS/05-Tasks.md)                              |
-| 06      | [Queues](11-Embedded-And-RTOS/06-Queues.md)                            |
-| 07      | [Priority Inversion](11-Embedded-And-RTOS/07-Priority-Inversion.md)    |
-| 08      | [FreeRTOS](11-Embedded-And-RTOS/08-FreeRTOS.md)                        |
+| Topic                                                                                    |
+| ---------------------------------------------------------------------------------------- |
+| [System Calls](08-System-And-Performance/01-System-Calls.md)                             |
+| [System Boot Process](08-System-And-Performance/02-System-Boot-Process.md)               |
+| [Hardware and Software Interrupts](08-System-And-Performance/03-Interrupts.md)           |
+| [Event Driven Programming](08-System-And-Performance/04-Event-Driven-Programming.md)     |
+| [Resource Management](08-System-And-Performance/05-Resource-Management.md)               |
+| [Priority Inversion](08-System-And-Performance/06-Priority-Inversion.md)                 |
+| [Load Balancing](08-System-And-Performance/07-Load-Balancing.md)                         |
+| [Performance Measurement and Tuning](08-System-And-Performance/08-Performance-Tuning.md) |
+| [Quiz](08-System-And-Performance/Quiz.md)                                                |
 
 ---
 
-## 🚗 AUTOSAR OS
+## 09. Advanced Topics
 
-| Chapter | Topic                                                  |
-| ------- | ------------------------------------------------------ |
-| 01      | [OSEK](12-AUTOSAR-OS/01-OSEK.md)                       |
-| 02      | [Tasks](12-AUTOSAR-OS/02-Tasks.md)                     |
-| 03      | [Events](12-AUTOSAR-OS/03-Events.md)                   |
-| 04      | [Resources](12-AUTOSAR-OS/04-Resources.md)             |
-| 05      | [Alarms](12-AUTOSAR-OS/05-Alarms.md)                   |
-| 06      | [ISR](12-AUTOSAR-OS/06-ISR.md)                         |
-| 07      | [Schedule Tables](12-AUTOSAR-OS/07-Schedule-Tables.md) |
-
----
-
-## 🏛️ Computer Architecture
-
-| Chapter | Topic                                                               |
-| ------- | ------------------------------------------------------------------- |
-| 01      | [CPU Architecture](13-Computer-Architecture/01-CPU-Architecture.md) |
-| 02      | [Pipeline](13-Computer-Architecture/02-Pipeline.md)                 |
-| 03      | [Cache Memory](13-Computer-Architecture/03-Cache-Memory.md)         |
-| 04      | [L1 L2 L3 Cache](13-Computer-Architecture/04-L1-L2-L3.md)           |
-| 05      | [Memory Hierarchy](13-Computer-Architecture/05-Memory-Hierarchy.md) |
-| 06      | [ARM Architecture](13-Computer-Architecture/06-ARM-Architecture.md) |
-| 07      | [ARMv8](13-Computer-Architecture/07-ARMv8.md)                       |
+| Topic                                                                        |
+| ---------------------------------------------------------------------------- |
+| [Cache Mapping](09-Advanced-Topics/01-Cache-Mapping.md)                      |
+| [Virtual Machines](09-Advanced-Topics/02-Virtual-Machines.md)                |
+| [Hypervisors](09-Advanced-Topics/03-Hypervisors.md)                          |
+| [Containers](09-Advanced-Topics/04-Containers.md)                            |
+| [Spooling](09-Advanced-Topics/05-Spooling.md)                                |
+| [Network File Systems (NFS)](09-Advanced-Topics/06-NFS.md)                   |
+| [Thread Safety](09-Advanced-Topics/07-Thread-Safety.md)                      |
+| [Reentrancy](09-Advanced-Topics/08-Reentrancy.md)                            |
+| [OS Security Mechanisms](09-Advanced-Topics/09-OS-Security.md)               |
+| [Future Trends in Operating Systems](09-Advanced-Topics/10-Future-Trends.md) |
+| [Quiz](09-Advanced-Topics/Quiz.md)                                           |
 
 ---
 
-## 🚀 Linux Boot Process
+## 10. Linux & System Programming
 
-| Chapter | Topic                                                        |
-| ------- | ------------------------------------------------------------ |
-| 01      | [BIOS vs UEFI](14-Linux-Boot-Process/01-BIOS-vs-UEFI.md)     |
-| 02      | [Bootloader](14-Linux-Boot-Process/02-Bootloader.md)         |
-| 03      | [Kernel Loading](14-Linux-Boot-Process/03-Kernel-Loading.md) |
-| 04      | [initramfs](14-Linux-Boot-Process/04-initramfs.md)           |
-| 05      | [systemd](14-Linux-Boot-Process/05-systemd.md)               |
-
----
-
-## 🛠️ Debugging & Tools
-
-| Chapter | Topic                                       |
-| ------- | ------------------------------------------- |
-| 01      | [GDB](15-Debugging/01-GDB.md)               |
-| 02      | [Core Dumps](15-Debugging/02-Core-Dumps.md) |
-| 03      | [Valgrind](15-Debugging/03-Valgrind.md)     |
-| 04      | [strace](15-Debugging/04-strace.md)         |
-| 05      | [perf](15-Debugging/05-perf.md)             |
-| 06      | [T32](15-Debugging/06-T32.md)               |
+| Topic                                                                                |
+| ------------------------------------------------------------------------------------ |
+| [Linux Kernel Overview](10-Linux-And-System-Programming/01-Linux-Kernel.md)          |
+| [fork()](10-Linux-And-System-Programming/02-fork.md)                                 |
+| [exec()](10-Linux-And-System-Programming/03-exec.md)                                 |
+| [wait()](10-Linux-And-System-Programming/04-wait.md)                                 |
+| [Linux Scheduler](10-Linux-And-System-Programming/05-Linux-Scheduler.md)             |
+| [Process Creation Flow](10-Linux-And-System-Programming/06-Process-Creation-Flow.md) |
 
 ---
 
-## 🎤 Interview Master
+## 11. Compilation Process
 
-| Chapter | Topic                                                                  |
-| ------- | ---------------------------------------------------------------------- |
-| 01      | [Top 500 OS Questions](16-Interview-Master/01-Top-500-OS-Questions.md) |
-| 02      | [Linux Questions](16-Interview-Master/02-Linux-Questions.md)           |
-| 03      | [Embedded Questions](16-Interview-Master/03-Embedded-Questions.md)     |
-| 04      | [RTOS Questions](16-Interview-Master/04-RTOS-Questions.md)             |
-| 05      | [AUTOSAR Questions](16-Interview-Master/05-AUTOSAR-Questions.md)       |
-| 06      | [Qualcomm Questions](16-Interview-Master/06-Qualcomm-Questions.md)     |
+| Topic                                                           |
+| --------------------------------------------------------------- |
+| [Preprocessor](11-Compilation-Process/01-Preprocessor.md)       |
+| [Compiler](11-Compilation-Process/02-Compiler.md)               |
+| [Assembler](11-Compilation-Process/03-Assembler.md)             |
+| [Linker](11-Compilation-Process/04-Linker.md)                   |
+| [Loader](11-Compilation-Process/05-Loader.md)                   |
+| [ELF](11-Compilation-Process/06-ELF.md)                         |
+| [Static Linking](11-Compilation-Process/07-Static-Linking.md)   |
+| [Dynamic Linking](11-Compilation-Process/08-Dynamic-Linking.md) |
 
 ---
 
-## ⚡ Cheat Sheets
+## 12. RTOS
+
+* [RTOS Basics](12-RTOS/01-RTOS-Basics.md)
+* [Tasks](12-RTOS/02-Tasks.md)
+* [Scheduler](12-RTOS/03-Scheduler.md)
+* [Queues](12-RTOS/04-Queues.md)
+* [Mutex](12-RTOS/05-Mutex.md)
+* [Semaphore](12-RTOS/06-Semaphore.md)
+* [Priority Inversion](12-RTOS/07-Priority-Inversion.md)
+* [FreeRTOS](12-RTOS/08-FreeRTOS.md)
+
+---
+
+## 13. AUTOSAR OS
+
+* [OSEK](13-AUTOSAR-OS/01-OSEK.md)
+* [Tasks](13-AUTOSAR-OS/02-Tasks.md)
+* [Events](13-AUTOSAR-OS/03-Events.md)
+* [Resources](13-AUTOSAR-OS/04-Resources.md)
+* [Alarms](13-AUTOSAR-OS/05-Alarms.md)
+* [ISR](13-AUTOSAR-OS/06-ISR.md)
+* [Schedule Tables](13-AUTOSAR-OS/07-Schedule-Tables.md)
+
+---
+
+## 14. Computer Architecture
+
+* [CPU Architecture](14-Computer-Architecture/01-CPU-Architecture.md)
+* [Pipeline](14-Computer-Architecture/02-Pipeline.md)
+* [Cache Memory](14-Computer-Architecture/03-Cache-Memory.md)
+* [L1/L2/L3 Cache](14-Computer-Architecture/04-L1-L2-L3.md)
+* [Memory Hierarchy](14-Computer-Architecture/05-Memory-Hierarchy.md)
+* [ARM Architecture](14-Computer-Architecture/06-ARM-Architecture.md)
+
+---
+
+## 15. Debugging & Tools
+
+* [GDB](15-Debugging-And-Tools/01-GDB.md)
+* [Valgrind](15-Debugging-And-Tools/02-Valgrind.md)
+* [strace](15-Debugging-And-Tools/03-strace.md)
+* [perf](15-Debugging-And-Tools/04-perf.md)
+* [T32](15-Debugging-And-Tools/05-T32.md)
+
+---
+
+## 16. Interview Master
+
+* [Top 500 OS Questions](16-Interview-Master/01-Top-500-OS-Questions.md)
+* [Linux Questions](16-Interview-Master/02-Linux-Questions.md)
+* [RTOS Questions](16-Interview-Master/03-RTOS-Questions.md)
+* [AUTOSAR Questions](16-Interview-Master/04-AUTOSAR-Questions.md)
+* [Qualcomm Questions](16-Interview-Master/05-Qualcomm-Questions.md)
+
+---
+
+## 17. Cheat Sheets
 
 * [OS Cheat Sheet](17-CheatSheets/01-OS-CheatSheet.md)
 * [Linux Cheat Sheet](17-CheatSheets/02-Linux-CheatSheet.md)
 * [RTOS Cheat Sheet](17-CheatSheets/03-RTOS-CheatSheet.md)
 * [AUTOSAR Cheat Sheet](17-CheatSheets/04-AUTOSAR-CheatSheet.md)
-* [Compilation Cheat Sheet](17-CheatSheets/05-Compilation-CheatSheet.md)
-
----
-
-# 🧠 Skills Covered
-
-```text
-Operating Systems
-Linux Internals
-System Programming
-Embedded Systems
-RTOS
-AUTOSAR OS
-Kernel Development
-Device Drivers
-ARM Architecture
-Computer Architecture
-Memory Management
-Virtual Memory
-Debugging
-GDB
-T32
-C Programming
-Linux Commands
-Interview Preparation
-```
-
----
-
-# 🎯 What You Will Learn
-
-✅ Operating Systems Fundamentals
-
-✅ Linux Internals
-
-✅ Process & Thread Management
-
-✅ CPU Scheduling
-
-✅ Synchronization & Deadlocks
-
-✅ Memory Management
-
-✅ Virtual Memory & Thrashing
-
-✅ File Systems & Device Drivers
-
-✅ Compilation Process & ELF
-
-✅ Kernel Internals
-
-✅ Embedded Systems
-
-✅ RTOS & FreeRTOS
-
-✅ AUTOSAR OS
-
-✅ ARM Architecture
-
-✅ Linux Boot Process
-
-✅ Debugging & Troubleshooting
-
-✅ Interview Preparation
 
 ---
 
 # 🎯 Target Interviews
 
-✅ Software Engineering
+✅ Software Engineer
 
-✅ Linux Development
+✅ Linux Engineer
 
-✅ Embedded Systems
+✅ Embedded Engineer
 
-✅ Device Drivers
+✅ Device Driver Engineer
 
-✅ RTOS Development
+✅ RTOS Engineer
 
-✅ AUTOSAR Development
+✅ AUTOSAR Engineer
 
 ✅ Qualcomm
 
@@ -459,16 +293,14 @@ Interview Preparation
 
 ✅ AMD
 
+✅ Samsung
+
 ✅ Bosch
 
 ✅ Continental
 
 ---
 
-<div align="center">
-
 # ⭐ Star The Repository If It Helps
 
-### Learn Deeply → Build Strong Fundamentals → Crack Interviews 🚀
-
-</div>
+Learn → Build → Debug → Master → Crack Interviews 🚀
