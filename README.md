@@ -1,249 +1,255 @@
+<div align="center">
+
 # 🚀 Operating System Mastery
 
-> Complete Operating System, Linux, RTOS, Embedded Systems, AUTOSAR OS, Computer Architecture, and Interview Preparation Repository.
+### The Complete Operating Systems, Linux, RTOS, Embedded Systems & Interview Preparation Repository
+
+<p align="center">
+<img src="https://img.shields.io/badge/Level-Beginner%20to%20Advanced-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Linux-Internals-green?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/RTOS-FreeRTOS-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AUTOSAR-OS-red?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/ARM-Architecture-purple?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Interview-Ready-success?style=for-the-badge"/>
+</p>
 
 ---
 
-# 📚 Learning Roadmap
+### 🎯 One Repository. One Roadmap. One Goal.
 
-## 01. Introduction
-
-* [What is an Operating System?](01-Introduction/What-Is-Operating-System.md)
-* [Evolution of Operating Systems](01-Introduction/Evolution-Of-OS.md)
-* [Types of Operating Systems](01-Introduction/Types-Of-OS.md)
-* [Kernel Architecture](01-Introduction/Kernel-Architecture.md)
-* [User Mode vs Kernel Mode](01-Introduction/User-Vs-Kernel-Mode.md)
-* [System Calls](01-Introduction/System-Calls.md)
+**Master Operating Systems deeply enough to crack Software Engineering, Linux, Embedded Systems, RTOS, Device Driver and Qualcomm-level interviews.**
 
 ---
 
-# 🔄 02. Processes and Threads
+### 📚 Covers
 
-* [Process](02-Processes-And-Threads/Process.md)
-* [Thread](02-Processes-And-Threads/Thread.md)
-* [Process vs Thread](02-Processes-And-Threads/Process-Vs-Thread.md)
-* [Process Control Block (PCB)](02-Processes-And-Threads/PCB.md)
-* [Thread Control Block (TCB)](02-Processes-And-Threads/TCB.md)
-* [Context Switching](02-Processes-And-Threads/Context-Switching.md)
-* [Process State Diagram](02-Processes-And-Threads/Process-State-Diagram.md)
+🖥️ Operating Systems
+🐧 Linux Internals
+⚙️ RTOS & FreeRTOS
+🚗 AUTOSAR OS
+🔥 Embedded Systems
+🏗️ Compilation Process
+🧠 Memory Management
+🔌 Device Drivers
+🏛️ Computer Architecture
+🛠️ Debugging & Tools
+🎤 Interview Preparation
 
----
-
-# ⚙️ 03. CPU Scheduling
-
-* [Scheduling Basics](03-CPU-Scheduling/Scheduling-Basics.md)
-* [FCFS](03-CPU-Scheduling/FCFS.md)
-* [SJF](03-CPU-Scheduling/SJF.md)
-* [SRTF](03-CPU-Scheduling/SRTF.md)
-* [Priority Scheduling](03-CPU-Scheduling/Priority-Scheduling.md)
-* [Round Robin](03-CPU-Scheduling/Round-Robin.md)
-* [Multilevel Queue](03-CPU-Scheduling/Multilevel-Queue.md)
-* [Multilevel Feedback Queue](03-CPU-Scheduling/Multilevel-Feedback-Queue.md)
+</div>
 
 ---
 
-# 🔐 04. Process Synchronization
+# 🗺️ Visual Learning Journey
 
-* [Critical Section Problem](04-Process-Synchronization/Critical-Section.md)
-* [Mutex](04-Process-Synchronization/Mutex.md)
-* [Semaphore](04-Process-Synchronization/Semaphore.md)
-* [Spinlock](04-Process-Synchronization/Spinlock.md)
-* [Monitor](04-Process-Synchronization/Monitor.md)
-* [Condition Variable](04-Process-Synchronization/Condition-Variable.md)
-* [Producer Consumer](04-Process-Synchronization/Producer-Consumer.md)
-* [Reader Writer](04-Process-Synchronization/Reader-Writer.md)
-* [Dining Philosophers](04-Process-Synchronization/Dining-Philosophers.md)
-
----
-
-# 💀 05. Deadlocks
-
-* [Deadlock Basics](05-Deadlocks/Deadlock.md)
-* [Coffman Conditions](05-Deadlocks/Coffman-Conditions.md)
-* [Deadlock Prevention](05-Deadlocks/Prevention.md)
-* [Deadlock Avoidance](05-Deadlocks/Avoidance.md)
-* [Banker's Algorithm](05-Deadlocks/Bankers-Algorithm.md)
-* [Deadlock Detection](05-Deadlocks/Detection.md)
-* [Deadlock Recovery](05-Deadlocks/Recovery.md)
-
----
-
-# 🧠 06. Memory Management
-
-* [Memory Layout of Process](06-Memory-Management/Process-Memory-Layout.md)
-* [Paging](06-Memory-Management/Paging.md)
-* [Segmentation](06-Memory-Management/Segmentation.md)
-* [MMU](06-Memory-Management/MMU.md)
-* [TLB](06-Memory-Management/TLB.md)
-* [Address Translation](06-Memory-Management/Address-Translation.md)
-* [Swapping](06-Memory-Management/Swapping.md)
-* [Fragmentation](06-Memory-Management/Fragmentation.md)
-
----
-
-# 💾 07. Virtual Memory
-
-* [Virtual Memory](07-Virtual-Memory/Virtual-Memory.md)
-* [Demand Paging](07-Virtual-Memory/Demand-Paging.md)
-* [Page Fault](07-Virtual-Memory/Page-Fault.md)
-* [FIFO](07-Virtual-Memory/FIFO.md)
-* [LRU](07-Virtual-Memory/LRU.md)
-* [Optimal Algorithm](07-Virtual-Memory/Optimal.md)
-* [Clock Algorithm](07-Virtual-Memory/Clock.md)
-
----
-
-# 📁 08. File Systems
-
-* [File System Basics](08-File-System/File-System-Basics.md)
-* [Inodes](08-File-System/Inodes.md)
-* [Journaling](08-File-System/Journaling.md)
-* [EXT4](08-File-System/EXT4.md)
-* [NTFS](08-File-System/NTFS.md)
-* [FAT32](08-File-System/FAT32.md)
-* [Mounting](08-File-System/Mounting.md)
-
----
-
-# 🔌 09. I/O Systems
-
-* [Interrupts](09-IO-Systems/Interrupts.md)
-* [Interrupt Handling](09-IO-Systems/Interrupt-Handling.md)
-* [Polling](09-IO-Systems/Polling.md)
-* [DMA](09-IO-Systems/DMA.md)
-* [Device Drivers](09-IO-Systems/Device-Drivers.md)
-* [Character Drivers](09-IO-Systems/Character-Drivers.md)
-* [Block Drivers](09-IO-Systems/Block-Drivers.md)
+```text id="ncc0jw"
+┌─────────────────────┐
+│ OS Fundamentals     │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Processes & Threads │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ CPU Scheduling      │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Synchronization     │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Deadlocks           │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Memory Management   │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Virtual Memory      │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Linux Internals     │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Compilation Process │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ RTOS & AUTOSAR OS   │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Kernel Internals    │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Interview Mastery   │
+└─────────────────────┘
+```
 
 ---
 
-# 🐧 10. Linux Internals
+# 📖 Repository Structure
 
-* [Linux Kernel Overview](10-Linux-Internals/Linux-Kernel.md)
-* [fork()](10-Linux-Internals/fork.md)
-* [exec()](10-Linux-Internals/exec.md)
-* [wait()](10-Linux-Internals/wait.md)
-* [Signals](10-Linux-Internals/Signals.md)
-* [Pipes](10-Linux-Internals/Pipes.md)
-* [Shared Memory](10-Linux-Internals/Shared-Memory.md)
-* [Sockets](10-Linux-Internals/Sockets.md)
-
----
-
-# 🧵 11. RTOS
-
-* [RTOS Basics](11-RTOS/RTOS-Basics.md)
-* [Tasks](11-RTOS/Tasks.md)
-* [Scheduler](11-RTOS/Scheduler.md)
-* [Queues](11-RTOS/Queues.md)
-* [Semaphore](11-RTOS/Semaphore.md)
-* [Mutex](11-RTOS/Mutex.md)
-* [Priority Inversion](11-RTOS/Priority-Inversion.md)
-* [FreeRTOS](11-RTOS/FreeRTOS.md)
-
----
-
-# 🚗 12. AUTOSAR OS
-
-* [OSEK Overview](12-AUTOSAR-OS/OSEK.md)
-* [Tasks](12-AUTOSAR-OS/Tasks.md)
-* [Events](12-AUTOSAR-OS/Events.md)
-* [Alarms](12-AUTOSAR-OS/Alarms.md)
-* [Resources](12-AUTOSAR-OS/Resources.md)
-* [ISR](12-AUTOSAR-OS/ISR.md)
-* [Schedule Tables](12-AUTOSAR-OS/Schedule-Tables.md)
+| Module             | Topics                           |
+| ------------------ | -------------------------------- |
+| 🏛️ Fundamentals   | OS Basics, Kernel, System Calls  |
+| 🔄 Processes       | Process, Thread, PCB, TCB        |
+| ⚙️ Scheduling      | FCFS, SJF, RR, Priority          |
+| 🔐 Synchronization | Mutex, Semaphore, Spinlock       |
+| 💀 Deadlocks       | Prevention, Avoidance, Recovery  |
+| 🧠 Memory          | Paging, Segmentation, MMU, TLB   |
+| 💾 Virtual Memory  | Page Faults, Thrashing, COW      |
+| 📁 File Systems    | EXT4, NTFS, Inodes               |
+| 🔌 I/O Systems     | Interrupts, DMA, Drivers         |
+| 🐧 Linux Internals | fork(), exec(), wait(), Signals  |
+| 🏗️ Compilation    | Compiler, Linker, Loader, ELF    |
+| ⚙️ RTOS            | Tasks, Scheduler, Queues         |
+| 🚗 AUTOSAR         | Tasks, Events, ISR, Alarms       |
+| 🔥 Embedded        | ARM, Bootloader, MMIO            |
+| 🏛️ Architecture   | CPU, Cache, Memory Hierarchy     |
+| 🐧 Kernel          | Scheduler, System Calls, Drivers |
+| 🚀 Boot Process    | BIOS, UEFI, systemd              |
+| 🛠️ Debugging      | GDB, Valgrind, T32               |
+| 🎤 Interviews      | Top 500 Questions                |
+| ⚡ Cheat Sheets     | Quick Revision Notes             |
 
 ---
 
-# 🔥 13. Embedded OS
+# 🌟 Knowledge Map
 
-* [Memory Mapped I/O](13-Embedded-OS/Memory-Mapped-IO.md)
-* [Bootloader](13-Embedded-OS/Bootloader.md)
-* [Interrupt Handling](13-Embedded-OS/Interrupt-Handling.md)
-* [ARM Exceptions](13-Embedded-OS/ARM-Exceptions.md)
-* [ARM Cortex Architecture](13-Embedded-OS/ARM-Cortex.md)
+## Foundation
 
----
+* [OS Fundamentals](01-OS-Fundamentals/)
+* [Processes & Threads](02-Processes-And-Threads/)
+* [CPU Scheduling](03-CPU-Scheduling/)
+* [Synchronization](04-Process-Synchronization/)
+* [Deadlocks](05-Deadlocks/)
 
-# 🏗️ 14. Compilation Process (MUST HAVE)
+## Core Operating Systems
 
-* [C Compilation Overview](14-Compilation-Process/C-Compilation.md)
-* [Preprocessor](14-Compilation-Process/Preprocessor.md)
-* [Compiler](14-Compilation-Process/Compiler.md)
-* [Assembler](14-Compilation-Process/Assembler.md)
-* [Linker](14-Compilation-Process/Linker.md)
-* [Loader](14-Compilation-Process/Loader.md)
-* [Static Linking](14-Compilation-Process/Static-Linking.md)
-* [Dynamic Linking](14-Compilation-Process/Dynamic-Linking.md)
-* [ELF File Format](14-Compilation-Process/ELF.md)
-* [Symbol Table](14-Compilation-Process/Symbol-Table.md)
-* [Memory Sections (.text .data .bss)](14-Compilation-Process/Memory-Sections.md)
+* [Memory Management](06-Memory-Management/)
+* [Virtual Memory](07-Virtual-Memory/)
+* [File Systems](08-File-Systems/)
+* [I/O Systems](09-IO-Systems/)
 
----
+## Linux & Systems Programming
 
-# 💻 15. Linux Commands
+* [Linux Internals](10-Linux-Internals/)
+* [Compilation Process](11-Compilation-Process/)
+* [Kernel Internals](16-Kernel-Internals/)
+* [Linux Boot Process](17-Linux-Boot-Process/)
 
-* [Process Commands](15-Linux-Commands/Process-Commands.md)
-* [Memory Commands](15-Linux-Commands/Memory-Commands.md)
-* [Networking Commands](15-Linux-Commands/Networking-Commands.md)
-* [Debugging Commands](15-Linux-Commands/Debugging-Commands.md)
+## Embedded Systems
 
----
+* [RTOS](12-RTOS/)
+* [AUTOSAR OS](13-AUTOSAR-OS/)
+* [Embedded Systems](14-Embedded-Systems/)
+* [Computer Architecture](15-Computer-Architecture/)
 
-# 🛠️ 16. Debugging
+## Practice & Interviews
 
-* [GDB](16-Debugging/GDB.md)
-* [Core Dumps](16-Debugging/Core-Dumps.md)
-* [Valgrind](16-Debugging/Valgrind.md)
-* [Lauterbach T32](16-Debugging/T32.md)
-* [Crash Analysis](16-Debugging/Crash-Analysis.md)
+* [Debugging](18-Debugging/)
+* [Interview Master](19-Interview-Master/)
+* [Cheat Sheets](20-CheatSheets/)
 
 ---
 
-# 🏛️ 17. Computer Architecture
+# 🎯 What Makes This Repository Different?
 
-* [CPU Architecture](17-Computer-Architecture/CPU.md)
-* [Caches](17-Computer-Architecture/Caches.md)
-* [L1 L2 L3 Cache](17-Computer-Architecture/L1-L2-L3.md)
-* [Virtual Memory](17-Computer-Architecture/Virtual-Memory.md)
-* [ARMv8 Architecture](17-Computer-Architecture/ARMv8.md)
-* [MMU](17-Computer-Architecture/MMU.md)
+### Most Notes Repositories
+
+❌ Only theory
+❌ No diagrams
+❌ No Linux examples
+❌ No interview preparation
+❌ No practical implementation
+
+### This Repository
+
+✅ Beginner → Advanced roadmap
+
+✅ Visual explanations
+
+✅ Linux implementation details
+
+✅ RTOS & AUTOSAR concepts
+
+✅ Device driver fundamentals
+
+✅ Kernel internals
+
+✅ Compilation process explained
+
+✅ Interview-focused learning
+
+✅ Real-world examples
+
+✅ C code examples
 
 ---
 
-# 🎤 18. Interview Master
+# 🏆 Final Outcome
 
-* [Top 500 OS Questions](18-Interview-Master/Top-500-OS-Questions.md)
-* [Linux Interview Questions](18-Interview-Master/Linux-Questions.md)
-* [RTOS Interview Questions](18-Interview-Master/RTOS-Questions.md)
-* [AUTOSAR Interview Questions](18-Interview-Master/AUTOSAR-Questions.md)
-* [Qualcomm Interview Questions](18-Interview-Master/Qualcomm-Questions.md)
+After completing this repository, you'll be able to answer:
+
+* What happens after pressing Enter on a Linux command?
+* How does fork() work internally?
+* How does context switching happen?
+* What is inside a PCB?
+* Why does thrashing occur?
+* How does virtual memory work?
+* How is an ELF loaded?
+* How does a linker work?
+* How does Linux boot?
+* How do interrupts reach the CPU?
+* How does an RTOS scheduler differ from Linux?
+* How does AUTOSAR OS schedule tasks?
 
 ---
 
-# ⚡ Quick Revision
+# 🎤 Target Interviews
 
-* [OS Cheat Sheet](19-CheatSheets/OS-CheatSheet.md)
-* [Linux Cheat Sheet](19-CheatSheets/Linux-CheatSheet.md)
-* [RTOS Cheat Sheet](19-CheatSheets/RTOS-CheatSheet.md)
-* [AUTOSAR Cheat Sheet](19-CheatSheets/AUTOSAR-CheatSheet.md)
+<div align="center">
+
+| Domain               | Ready? |
+| -------------------- | ------ |
+| Software Engineering | ✅      |
+| Linux Development    | ✅      |
+| Embedded Systems     | ✅      |
+| Device Drivers       | ✅      |
+| RTOS Development     | ✅      |
+| AUTOSAR Development  | ✅      |
+| Qualcomm             | ✅      |
+| NVIDIA               | ✅      |
+| Intel                | ✅      |
+| AMD                  | ✅      |
+| Bosch                | ✅      |
+| Continental          | ✅      |
+
+</div>
 
 ---
 
-# 🎯 Repository Goal
+<div align="center">
 
-By completing all notes in this repository, you will be prepared for:
+# ⭐ Star The Repository If It Helps
 
-✅ Software Engineer Interviews
+### Learn Deeply → Build Strong Fundamentals → Crack Interviews 🚀
 
-✅ Linux System Engineer Interviews
-
-✅ Embedded Software Engineer Interviews
-
-✅ Device Driver Development Roles
-
-✅ RTOS Development Roles
-
-✅ Qualcomm / NVIDIA / Intel / AMD Interviews
-
-✅ AUTOSAR Developer Roles
+</div>
